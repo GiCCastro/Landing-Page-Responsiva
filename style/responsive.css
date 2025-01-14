@@ -21,7 +21,7 @@
 @media (max-width: 1200px) {
 
     .section-topics .icons-text .icon {
-        width: 14rem;
+        width: 16rem;
     }
 
     .section-topics .content-learned .learned {
@@ -68,10 +68,6 @@
         gap: 4rem;
     }
 
-    .section-topics .icons-text .icon {
-        width: 13rem;
-    }
-
     .section-presentation .background-image-2 img,
     .section-testimony .background-image img {
         display: none;
@@ -80,7 +76,7 @@
     .section-topics .title,
     .section-topics .text {
         text-align: start;
-        padding: 0 2rem;
+        padding: 0 0.5rem;
     }
 
     .section-jorney .observation,
@@ -127,7 +123,7 @@
     }
 
     .section-topics .icons-text .icon {
-        width: 18rem;
+        width: 20rem;
     }
 
     .section-topics .icons-text .icon p {
