@@ -1,0 +1,329 @@
+@media (max-width: 1300px) {
+
+    .section-topics .title .p1 {
+        font-size: 28px;
+    }
+
+    .section-topics .icons-text {
+        margin-top: 5rem;
+    }
+
+    .section-jorney .date-text .card-content {
+        width: 80%;
+        height: 20rem;
+    }
+    .section-testimony .container-text .inscription .inscription-content {
+        margin-left: 0;
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .section-topics .icons-text .icon {
+        width: 14rem;
+    }
+
+    .section-topics .content-learned .learned {
+        width: 80%;
+        padding: 2rem;
+        font-size: 23px;
+    }
+
+    .section-jorney .date-text .line {
+        margin-top: 2rem;
+    }
+
+    .section-audience .audience {
+        column-gap: 5%;
+        row-gap: 5%;
+    }
+
+    .section-audience .audience .card-text {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1120px) {
+
+
+    .section-presentation {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-presentation .presentation-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 2rem;
+    }
+
+    .section-presentation .presentation-content .logo-info,
+    .section-presentation .presentation-content .inscription form {
+        width: 100%;
+    }
+
+    .section-topics .icons-text {
+        gap: 4rem;
+    }
+
+    .section-topics .icons-text .icon {
+        width: 13rem;
+    }
+
+    .section-presentation .background-image-2 img,
+    .section-testimony .background-image img {
+        display: none;
+    }
+
+    .section-topics .title,
+    .section-topics .text {
+        text-align: start;
+        padding: 0 2rem;
+    }
+
+    .section-jorney .observation,
+    .section-jorney .title,
+    .section-audience .p1 {
+        padding: 0 2rem;
+    }
+
+
+    .section-testimony .container-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5rem;
+    }
+
+    .section-testimony .container-text .testimonial-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-testimony .container-text .testimonial-text .title p {
+        margin: 0;
+    }
+
+    .section-testimony .container-text .testimonial-text .text-content,
+    .section-testimony .container-text .inscription,
+    .section-testimony .container-text .inscription .inscription-content {
+        margin-left: 0;
+        padding: 0 2rem;
+    }
+
+}
+
+
+@media (max-width: 1000px) {
+
+    .section-topics .icons-text {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5rem;
+        margin-top: 5.4rem;
+    }
+
+    .section-topics .icons-text .icon {
+        width: 18rem;
+    }
+
+    .section-topics .icons-text .icon p {
+        font-size: 26px;
+    }
+
+}
+
+@media (max-width: 950px) {
+
+    .section-presentation .background-icons-1 img:nth-child(1) {
+        width: 90%;
+    }
+
+    .section-presentation .background-icons-1 img:nth-child(2) {
+        width: 90%;
+    }
+
+    .section-presentation .background-icons-1 img:nth-child(3) {
+        width: 90%;
+    }
+    .section-testimony .container-text .inscription .inscription-content {
+        margin-top: 6rem;
+    }
+    
+    .scroll-indicator-second{
+        display: block;
+    }
+}
+
+@media (max-width: 890px) {
+    .section-jorney .date-text {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5rem;
+        margin-top: 5.4rem;
+
+    }
+
+    .section-jorney .date-text .card-content .card-body {
+        height: 90%;
+    }
+    
+    
+}
+
+@media (max-width: 760px) {
+    .section-audience .audience {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        margin-top: 8rem;
+    }
+
+    .section-audience .audience .card-text {
+        width: 80%;
+    }
+
+    .section-audience .audience .card-text p {
+        font-size: 35px;
+    }
+
+    .section-presentation .presentation-content .logo-info p,
+    .section-topics .title .p1,
+    .section-topics .title .p2,
+    .section-topics .text {
+        font-size: 30px;
+    }
+
+    .section-presentation .presentation-content .slogan-subtitle .title {
+        font-size: 35px;
+    }
+
+    .section-presentation .presentation-content .slogan-subtitle .subtitle,
+    .section-audience .audience .card-text p {
+        font-size: 26px;
+    }
+
+    .section-presentation .presentation-content .inscription,
+    .section-topics .content-learned .learned {
+        font-size: 22px;
+    }
+
+
+    .section-presentation .presentation-content .inscription form input,
+    .section-presentation .presentation-content .inscription form button,
+    .section-testimony .container-text .inscription button {
+        font-size: 23.6px;
+    }
+
+
+    .section-topics .icons-text .icon p {
+        font-size: 18px;
+    }
+
+    .section-jorney .title,
+    .section-audience .p1 {
+        font-size: 39px;
+    }
+
+    .section-jorney .date-text .card-content .card-body,
+    .section-jorney .observation,
+    .section-testimony .container-text .testimonial-text .text-content,
+    .section-testimony .container-text .inscription p {
+        font-size: 34px;
+
+    }
+
+    .section-testimony .container-text .testimonial-text .title p {
+        font-size: 46px;
+    }
+
+}
+
+@media (max-width: 710px) {
+
+    .section-presentation .presentation-content {
+        padding: 0 2rem;
+    }
+
+    .section-presentation .presentation-content .inscription form {
+        gap: 0rem;
+    }
+
+    .section-presentation .presentation-content .inscription form input {
+        width: 80%;
+    }
+
+    .section-presentation .presentation-content .inscription form button,
+    .section-testimony .container-text .inscription .inscription-content button {
+        width: 84%;
+    }
+
+
+    .section-topics .icons-text {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-topics .icons-text .icon p {
+        font-size: 24px;
+    }
+
+    .section-testimony .container-text .inscription button {
+        width: 84%;
+
+    }
+
+}
+
+@media (max-width: 620px) {
+
+    .section-topics .content-learned .learned {
+        height: 8rem;
+    }
+
+
+    .section-presentation .background-icons-1 img:nth-child(2) {
+        margin-left: 0rem;
+    }
+
+    .section-testimony .container-text .inscription {
+        width: 100%;
+        padding: 0 0rem;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .section-testimony .container-text .inscription .inscription-content p {
+        font-size: 34px;
+    }
+
+    .section-testimony .container-text .inscription .inscription-content button {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+}
+
+@media (max-width: 415px) {
+    .section-audience .audience .card-text {
+        height: 16rem;
+    }
+
+    .section-jorney .date-text .card-content {
+        height: 23rem;
+    }
+}
+
+@media(max-width: 375px) {
+    .section-testimony .container-text .inscription p {
+        margin-bottom: 2rem;
+    }
+}
