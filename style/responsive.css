@@ -80,6 +80,10 @@
         padding: 0 2rem;
     }
 
+    .section-jorney{
+        padding-top: 3rem;
+    }
+    
     .section-jorney .observation,
     .section-jorney .title,
     .section-audience .p1 {
