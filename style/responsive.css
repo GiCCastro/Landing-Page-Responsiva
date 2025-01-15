@@ -312,6 +312,10 @@
 }
 
 @media (max-width: 415px) {
+    .section-jorney .title, .section-audience .p1 {
+        font-size: 32px;
+    }
+
     .section-audience .audience .card-text {
         height: 16rem;
     }
@@ -319,17 +323,26 @@
     .section-jorney .date-text .card-content {
         height: 23rem;
     }
+
+   
 }
 
 @media (max-width: 375px) {
+
+    
     .section-topics .icons-text .icon {
-        width: 18rem;
+        width: 40rem;
     }
 
     .section-topics .icons-text .icon p {
         font-size: 20px;
     }
 
+    .section-audience .p1 {
+        font-size: 32px;
+    }
+
+     
     .section-testimony .container-text .inscription p {
         margin-bottom: 2rem;
     }
