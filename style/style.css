@@ -425,31 +425,3 @@ body {
     background-color: #4CAF50;
     transform: scale(1.05);
 }
-
-.scroll-indicator,
-.scroll-indicator-second {
-    position: relative; 
-    left: 50%;          
-    transform: translateX(-50%); 
-    z-index: 10;        
-    font-size: 20px;    
-    color: var(--highlight-color);     
-    font-weight: bold;  
-    text-align: center;
-    animation: bounce 1.5s infinite;
-    display: none;
-}
-
-.fa-angle-down:before {
-    margin-right: 0.5rem;
-}
-  @keyframes bounce {
-    0%, 100% {
-      transform: translateX(-50%) translateY(0);
-    }
-    50% {
-      transform: translateX(-50%) translateY(10px);
-    }
-  }
-
-
