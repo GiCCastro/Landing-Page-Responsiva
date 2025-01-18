@@ -58,8 +58,8 @@ body {
 
 .section-presentation .background-image-2 {
     position: absolute;
-    top: 8.3rem;
-    right: 0;
+    top: 1.5rem;
+    right: -27rem;
     z-index: 1;
 }
 
@@ -67,11 +67,16 @@ body {
         text-align: start;
         position: absolute;
         top: 0; 
-        z-index: 2;
+        z-index:2 ;
         margin-top: 6.8rem;
         color: var(--white);
         padding-left: 7.5rem; 
         padding-right: 1rem; 
+}
+
+.section-presentation .presentation-content .logo-info {
+    z-index:2 ;
+    position: relative;
 }
 
 .section-presentation .presentation-content .logo-info img {
@@ -84,6 +89,11 @@ body {
     font-weight: 400;
     font-size: 32px; 
     line-height: 44px; 
+}
+
+.section-presentation .presentation-content .slogan-subtitle{
+    z-index:2 ;
+    position: relative;
 }
 
 .section-presentation .presentation-content .slogan-subtitle .title {
@@ -104,6 +114,8 @@ body {
     font-weight: 400;
     font-size: 24px; 
     margin-bottom: 2rem;
+    z-index:2 ;
+    position: relative;
 }
 
 .section-presentation .presentation-content .inscription p {
@@ -346,7 +358,7 @@ body {
 .section-testimony {
     color: var(--white);
     background-color: var(--primary-color);
-    min-height: 85rem;
+    min-height: 100vh;
     padding-bottom: 9rem;
     position: relative;
     overflow-x: hidden;
@@ -356,14 +368,18 @@ body {
 .section-testimony .background-image {
     position: absolute;
     z-index: 0;
-    margin-top: 9.75rem;
-    right: 0;
+    top: 9.75rem;
+    right: -1rem;
 }
 
 .section-testimony .container-text {
-    position: absolute;
+    position: relative;
     width: 100%;
-    margin-top: 15rem;
+    z-index: 1;
+}
+
+.section-testimony .container-text .testimonial-text {
+    position: relative;
     z-index: 1;
 }
 
@@ -373,6 +389,14 @@ body {
     font-weight: 700;
     margin-left: 17rem;
     line-height: 60px; 
+    position: relative;
+    top: 15rem;
+}
+
+.section-testimony .container-text .testimonial-text .text{
+    position: relative;
+    z-index: 1;
+    top: 15rem;
 }
 
 .section-testimony .container-text .testimonial-text .text-content {
@@ -386,6 +410,12 @@ body {
 .section-testimony .container-text .testimonial-text .text-content .p2,
 .section-testimony .container-text .testimonial-text .text-content .p3 {
     margin-top: 4rem;
+}
+
+
+.section-testimony .container-text .inscription{
+    position: relative;
+    z-index: 1;
 }
 
 .section-testimony .container-text .inscription .inscription-content {
